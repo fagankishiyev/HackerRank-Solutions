@@ -1,14 +1,18 @@
 /*
 HackerRank #17 - append and delete
-link:https://www.hackerrank.com/challenges/sock-merchant/problem?isFullScreen=true
+link:https://www.hackerrank.com/challenges/append-and-delete/problem?isFullScreen=true
 
 Input:
+hackerhappy
+hackerrank
 9
-10 20 20 10 10 30 50 10 20
 
 Output:
-3
+yes
 */
+
+#include <bits/stdc++.h>
+using namespace std;
 
 string appendAndDelete(string s, string t, int k) {
     int i = 0;
